@@ -1,0 +1,58 @@
+
+{
+  "Name": "INCY YouTube Meta VPN",
+  "GlobalProxy": "false",
+  "UseChunkFiles": "true",
+
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+
+  "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+
+  "LastUpdated": "1795422173",
+
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+
+  "RouteOrder": "block-proxy-direct",
+
+  "DirectSites": [
+    "geosite:private"
+  ],
+
+  "DirectIp": [
+    "geoip:private"
+  ],
+
+  "ProxySites": [
+    "geosite:youtube",
+    "geosite:instagram",
+    "geosite:telegram",
+    "geosite:whatsapp",
+    "geosite:facebook"
+  ],
+
+  "ProxyIp": [],
+
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:category-public-tracker",
+    "geosite:category-ads-all"
+  ],
+
+  "BlockIp": [],
+
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
