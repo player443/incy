@@ -1,6 +1,6 @@
 
 {
-  "Name": "INCY YouTube Meta VPN",
+  "Name": "INCY YouTube Meta Telegram VPN",
   "GlobalProxy": "false",
   "UseChunkFiles": "true",
 
@@ -19,11 +19,6 @@
   "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
 
   "LastUpdated": "1795422173",
-
-  "DnsHosts": {
-    "lkfl2.nalog.ru": "213.24.64.175",
-    "lknpd.nalog.ru": "213.24.64.181"
-  },
 
   "RouteOrder": "block-proxy-direct",
 
